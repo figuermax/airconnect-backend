@@ -1,4 +1,5 @@
-import { aeropuerto } from "./aeropuerto.entity";
+import { Aeropuerto } from "./aeropuerto.entity";
+
 
 export class vuelo{
 
@@ -7,16 +8,16 @@ export class vuelo{
     numeroVuelo:string;
     fechaSalida:Date;
     duracionEstimada:number;
-    origen:aeropuerto;
-    destino:aeropuerto;
+    origen:Aeropuerto;
+    destino:Aeropuerto;
     estado:string;
 
     constructor(id:number,
     numeroVuelo:string,
     fechaSalida:Date,
     duracionEstimada:number,
-    origen:aeropuerto,
-    destino:aeropuerto,
+    origen:Aeropuerto,
+    destino:Aeropuerto,
     estado:string){
         this.id=id;
         this.numeroVuelo=numeroVuelo,

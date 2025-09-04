@@ -5,11 +5,12 @@ import { VuelosModule } from './vuelos/vuelos.module';
 
 import { AeropuertosModule } from './aeropuertos/aeropuertos.module';
 import { PasajerosModule } from './pasajeros/pasajeros.module';
+import { ReservasModule } from './reservas/reservas.module';
 
 @Module({
 
 
-  imports: [VuelosModule,AeropuertosModule,PasajerosModule],
+  imports: [VuelosModule,AeropuertosModule,PasajerosModule, ReservasModule],
   controllers: [AppController],
   providers: [AppService],
 })

@@ -1,8 +1,9 @@
-import { IsString, Length } from "class-validator";
-import { Aeropuerto } from "src/entities/aeropuerto.entity";
+import { isDate, IsString, Length } from "class-validator";
+
 
 export class crearVueloDto{
     numeroVuelo:number;
+   
     fechaSalida:Date;
     duracionEstimada:number;
     @IsString()

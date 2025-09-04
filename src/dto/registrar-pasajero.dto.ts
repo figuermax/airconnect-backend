@@ -11,5 +11,6 @@ export class registrarPasajero{
     @IsNotEmpty()
     @IsEmail()
     email:string;
+    numeroVuelo: string;
 
 }

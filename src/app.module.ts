@@ -6,11 +6,10 @@ import { VuelosModule } from './vuelos/vuelos.module';
 import { AeropuertosModule } from './aeropuertos/aeropuertos.module';
 
 @Module({
-<<<<<<< HEAD
-  imports: [VuelosModule],
-=======
-  imports: [AeropuertosModule],
->>>>>>> feature_aeropuertos
+
+  imports: [VuelosModule,AeropuertosModule],
+
+
   controllers: [AppController],
   providers: [AppService],
 })
